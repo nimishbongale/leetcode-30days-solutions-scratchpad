@@ -7,7 +7,7 @@ class Solution:
         if k==1:
             self.stor.append(n)
             return True
-        elif cnt>20:
+        elif cnt>5:
             return False
         return self.findhappy(k,cnt+1)
         
