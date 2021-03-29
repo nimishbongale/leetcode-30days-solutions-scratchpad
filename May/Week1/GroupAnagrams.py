@@ -7,4 +7,3 @@ class Solution(object):
                 count[ord(c) - ord('a')] += 1
             ans[tuple(count)].append(s)
         return ans.values()
-        

@@ -10,6 +10,3 @@ class Solution:
             else:
                 max1=max(i-stor[sum1],max1)
         return max1
-                
-            
-        

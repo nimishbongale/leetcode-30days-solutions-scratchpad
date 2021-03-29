@@ -16,6 +16,3 @@ class Solution:
         self.ans=[]
         self.inord(root)
         return self.ans[k-1]
-            
-        
-        

@@ -25,8 +25,6 @@ class LRUCache:
             self.use=self.use[1:]    
         self.lru[key]=value
         self.use.append(key)
-            
-
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)

@@ -40,5 +40,3 @@ class Solution:
             # check.append(i[1])
         return not g.isCyclic() 
     # and len(set(check))==numCourses
-        
-        

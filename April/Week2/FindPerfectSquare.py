@@ -26,5 +26,3 @@ class Solution:
             return True
         ans=self.squareRoot(num)
         return True if ans*ans==num else False
-            
-        

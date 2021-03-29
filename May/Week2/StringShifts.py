@@ -9,4 +9,3 @@ class Solution:
             s=self.doshift(s,i[0],i[1])
             print(s)
         return s
-        

@@ -4,5 +4,4 @@ class Solution:
         n=len(nums)
         for i in d.keys():
             if d[i]> n//2:
-                return i
-        
+                return i        

@@ -28,5 +28,3 @@ class Solution:
         self.visited=[[False for i in range(self.n)] for j in range(self.m)]
         self.dfs(sr,sc)
         return self.arr
-        
-        

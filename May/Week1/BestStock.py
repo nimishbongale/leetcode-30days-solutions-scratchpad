@@ -29,12 +29,3 @@ class Solution:
                 else:
                     ans+=lmax-lmin
             return ans
-                
-            
-                
-            
-                
-                
-            
-        
-        

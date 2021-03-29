@@ -13,6 +13,3 @@ class Solution:
             if i not in npos and len(mydic[i])==N-1:
                 return i
         return -1
-            
-            
-        

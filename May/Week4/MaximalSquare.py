@@ -10,9 +10,3 @@ class Solution:
                     dp[i+1][j+1]=min(dp[i][j],dp[i][j+1],dp[i+1][j])+1
                     max1=max(max1,dp[i+1][j+1])
         return max1**2
-        
-        
-        
-        
-        
-        

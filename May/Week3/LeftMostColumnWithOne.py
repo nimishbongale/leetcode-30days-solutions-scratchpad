@@ -16,5 +16,4 @@ class Solution:
             else:
                 p[1]=p[1]-1
         k=p[1]+1
-        return -1 if k==dim[0] else k
-                
+        return -1 if k==dim[0] else k      

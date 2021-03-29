@@ -21,4 +21,3 @@ class Solution:
         rdiameter = self.diameterOfBinaryTree(root.right) 
    
         return max(lheight + rheight, max(ldiameter, rdiameter)) 
-        

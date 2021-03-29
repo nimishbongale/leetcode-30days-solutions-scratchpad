@@ -33,6 +33,3 @@ class Solution:
         temp=self.add(temp,odd)
         temp=self.add(temp,even)
         return glob
-        
-        
-        

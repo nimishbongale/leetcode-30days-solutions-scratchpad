@@ -6,4 +6,3 @@ class Solution:
         for i in k:
             ans+=i*d[i]
         return ans
-        

@@ -5,5 +5,3 @@ class Solution:
             l[i]=nums[i-1]*l[i-1]
             r[len(r)-i-1]=nums[len(nums)-i]*r[len(r)-i]
         return [l[i]*r[i] for i in range(len(nums))]
-            
-        

@@ -3,8 +3,4 @@ class Solution:
         d=Counter(nums)
         for i in d.keys():
             if d[i]==1:
-                return i
-        
-        
-            
-        
+                return i 
